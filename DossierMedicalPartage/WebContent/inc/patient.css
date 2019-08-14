@@ -1,0 +1,176 @@
+.redefinition-droite {
+	display : inline-block;
+	margin-top : 1.2em;
+	
+}
+
+.redefinition-gauche{
+	display : inline-block;
+	position : relative;
+	vertical-align : top;
+	width : 40%;
+	margin-left : 1em;
+	margin-right: 5em;
+	margin-top : 1.2em;		
+}
+
+.redefinition-gauche table {
+ 	cursor : default;  
+}
+
+.redefinition-gauche table th {
+	width : 20%;
+ 	padding : 0.5em 1.15em;
+}
+
+
+.image-info {
+	position : absolute;
+	top : 1.3em;
+	right: 1.3em;
+}
+
+optgroup { 
+	font-size:12px; 
+	color : #2f7853;
+}
+
+option:disabled {
+  background: #eeefef;
+}
+
+.consultation-patient {
+	border-radius : 0 0 30px 30px;
+	width : 25em;
+	background-color : white;
+}
+
+.information-patient {
+	border-radius : 0 0 30px 30px;
+	width : 40em;
+	background-color : white;
+}
+
+.en-tete-consultation {
+	background-color : #5381a9;
+}
+
+.en-tete-consultation h2 {
+	text-align: center;
+	font-family: 'abrilFat';
+	font-size : 2em;
+	color : white;
+}
+
+#id-consultation {
+	text-align : center;
+}
+
+#bouton-consultation {
+	text-align : center;
+}
+
+
+.consultation-bloc {
+	display : inline-block;
+	margin-left : 2em;
+}
+
+.consultation-patient {
+	display : inline-block;
+	text-align : center;
+}
+
+hr {
+	border : none;
+	color :  #f8f9fa;
+	background-color :  #f8f9fa;
+	height: 10px;
+}
+
+form input [type="submit"]{
+	padding : 0;
+}
+
+.bouton-modifier-consultation, .bouton-annuler-consultation, .bouton-valider-consultation, 
+.bouton-ajouter-consultation, .bouton-valider-info-patient {
+	cursor: pointer;
+	color : white;
+	border-radius : 0.2em;
+	border : none;
+	padding : 0.5em 2em;	
+	margin-bottom : 1em;
+	font-weight: bold;
+}
+
+
+.bouton-modifier-consultation, .bouton-valider-consultation, 
+.bouton-ajouter-consultation, .bouton-valider-info-patient {
+	background-color : #5381a9;
+}
+
+.bouton-annuler-consultation {
+	background-color : #e0540d;
+}
+
+.bouton-modifier-consultation:disabled, .bouton-annuler-consultation:disabled, .bouton-valider-consultation:disabled {
+	cursor: default;
+	color : white;
+	background-color : #eeefef;
+	border-radius : 0.2em;
+	border : none;
+	padding : 0.5em 2em;	
+	margin-bottom : 1em;
+	font-weight: bold;
+}
+
+
+.redefinition-information {
+	display : inline-block;
+	position :fixed;
+}
+
+.contener-modification {
+	vertical-align : top;
+	height: 30px;
+	display : none;
+}
+
+.date-importante {
+	color : black;
+	font-weight: bold;
+}
+
+.consultation {
+	position : relative;
+}
+.nombre-consultation {
+	position : absolute;
+	top : 0;
+	right : 2px;
+	color : #5381a9;
+	font-style: italic;
+}
+
+#image-fermeture_rdv {
+	cursor: pointer;
+}
+
+input[type=date] {
+	font-size : 1em;
+}
+
+/* Page 3 - Patient (mes informations) */ 
+
+.label-info-patient {
+	text-align : left;
+	color : #e0540d;
+}
+
+.reajustement-modif-patient {
+	padding : 0.7em;
+}
+
+.reajustement-modif-patient p {
+	text-align : left;
+}

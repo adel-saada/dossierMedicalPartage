@@ -1,0 +1,168 @@
+div#content {
+	background: #f8f9fa;
+	border: 1px solid #eeefef;
+	padding: 0.8em 0; /* 30/16 */
+	text-align : center;
+}
+
+.image_supprimer_input {
+	background-image:url("icones/disconnected.png");
+}
+
+
+/*----------- MENU Utilisateur -------------*/
+
+.menu-gestion {
+	list-style-type: none;
+}
+
+.menu-gestion ul li {
+	cursor: pointer;  
+	display: inline-block;
+	color : #5381a9;
+	border : 1px solid #eeefef;
+	background-color: #eeefef;
+	padding: 0 0.5em;
+}
+
+
+#menu-1 a:hover{
+	text-decoration: none;
+	color : #5381a9;
+}
+
+#menu-1 a {
+	text-decoration: none;
+}
+
+.info-connexion {
+	position : absolute;
+	right : 1em;
+	top : 4.6em;
+	color : green;
+}
+
+.liste {
+	list-style-type: none;
+}
+
+.titre-liste{
+	text-align: center;
+	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+}
+
+.liste-contener {
+	overflow:auto;
+	height: 10em;
+	border : 0.2rem solid #e3e3e3;
+	background-color : white ;
+	margin : auto;
+}
+
+
+tr:nth-child(odd) {background: #CCC}
+tr:nth-child(even) {background: white}
+
+
+.liste tr:hover { 
+	background-color : #5381a9;
+}
+
+
+.information-utilisateur {
+	border : 2px solid #eeefef ;
+	text-align: center;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+.gauche, .droite {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+form p input[type="text"], form p input[type="password"],form p input[type="email"],
+form p input[type="radio"], form p select{
+	padding : 0.2em;
+	margin : 0.3em;
+}
+
+form p select {
+	margin : 0.3em;	
+}
+
+.bouton-valider {
+	display: inline;
+}
+
+/*-------------- Barre recherhe ------------------ */
+
+.barre-recherche {
+	padding-top: 0.3em;
+	text-align: center;
+}
+
+.champ-recherche{
+	border: 1px solid #d9dbdd;
+	margin-top : 0.2em;
+	margin-left: 1em;
+	margin-right: 2em;
+	width: 80%; 
+	height: 1.7em;
+}
+
+.champ-recherche:hover {
+	border: 1px solid #bbbdbe;
+}
+
+.bouton-recherche { 
+	background-image: url("icones/search.png");
+	background-repeat: no-repeat;
+	font-weight: bold;
+	font-size : 0.6em;
+}
+
+/*-----------tableau -------------*/
+
+table {
+  cursor: pointer;  
+  font-family: Verdana;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 0.73em;
+}
+
+th {
+  padding: 0.85em;
+  text-align: center;
+  margin: 0;
+}
+
+td {
+  padding: 0.2em 0.95em;
+  text-align: center;
+  margin: 0;
+}
+
+tbody tr:nth-child(2n){
+  background-color: #eee;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+}
+
+.hidden {
+	display : none;
+}

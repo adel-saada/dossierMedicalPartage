@@ -1,0 +1,185 @@
+
+/* ---------- RESET ---------- */
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, 
+h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset, img {	border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+body { font-size: 1em; /* Prevents an IE bug where em's scale out of proportion */ }
+
+
+/* ---------- GENERAL ---------- */
+p {
+	margin-bottom: 1.25em; /* 20/16 */
+	color: #9498a1;
+}
+
+h1, h2, h3, h4, h5, h6 { margin-bottom: 0.625em; /* 10/16 */ }
+
+
+/* ---------- TYPOGRAPHIE ---------- */
+body, form {
+	font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+	line-height: 1.125em; /* 18/16 */
+}
+
+p, .button, form input, ol, blockquote, cite { font-size: 0.75em; /* 12/16 */ }
+
+form p input[type="text"], form p input[type="password"], form p input[type="checkbox"], form p input[type="radio"], form p input[type="email"] { font-size: 1em; /* 12/12. I did 12 because they're contained within a P tag, that has font size of 12px*/ }
+
+h1 { font-size: 1.125em; /* 18/16 */ }
+h2 { font-size: 0.875em; /* 14/16 */ }
+h3 { font-size: 0.75em; /* 12/16 */ }
+h4 { font-size: 0.685em; /* 11/16 */ }
+h5 { font-size: 0.625em; /* 10/16 */ }
+
+/* ---------- COULEURS ---------- */
+a { color: #2069b4; }
+a:hover { color: #2a2e36; }
+
+
+/* ---------- LARGEUR ---------- */
+/* Form Inputs Style */
+.default-width-input { width: 20.833em; /* Default Value. Equals 250px for the 12px font size */ }	
+
+.full-width-input { width: 95%; }
+
+/* Textarea Style */
+.full-width-textarea {
+	width: 95%;
+	height: 12.5em; /* 150/12 */
+}
+
+
+/* ---------- BOUTONS ---------- */
+.button {
+	padding: 0.833em; /* 10/12 */
+	
+	display: inline-block;
+	text-decoration: none;
+	background-repeat: no-repeat;
+}
+
+
+/* ---------- FORMS ---------- */
+form label {
+	display: block;
+	text-transform: uppercase;
+	color: #2a2e36;
+	margin: 0 0 0.3125em 0;
+}
+
+form label.alt-label { text-transform: none; }
+
+form input[type="text"],form input[type="email"], input[type="password"], textarea {
+	border: 1px solid #d9dbdd;
+	padding: 1em 0.625em; /* 16/16 10/16 */
+	outline: none;
+}
+	form input[type="text"]:hover, input[type="password"]:hover, textarea:hover,
+	form input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+		border: 1px solid #bbbdbe;
+	}
+	
+form input[type="checkbox"], form input[type="radio"] { margin-right: 0.833em; /* 10/12 */ }
+
+form input[type="submit"] {
+	border: none;
+	cursor: pointer;
+	padding: 0.833em; /* 10/12 */
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+form p em {
+	margin-top: 0.833em; /* 10/12 */
+	display: block;
+}
+	
+/* ---------- CONTENT ---------- */
+div#content {
+	background: #f8f9fa;
+	border: 1px solid #eeefef;
+	padding: 1.875em 0; /* 30/16 */
+}
+
+form#login-form {
+	width: 18.75em; /* 300/16 */
+	margin: 0 auto;
+}
+
+/* ---------- EN TETE ---------- */
+
+.en-tete {
+	background : white;
+	border: 1px solid #eeefef;
+	padding: 1.4em;
+	/* height: 7em; */
+	font-family: '20db';
+	font-size : 2.3em;
+	color : #5381a9;
+	text-align : center;
+}
+
+/* ---------- logo ---------- */
+
+.logo {
+	height : 1em;
+}
+
+/* ---------- bouton radio ---------- */
+
+.center {
+	text-align : center;
+}
+
+
+.radio-inline {
+	display : inline-block;
+	padding : 0 1.1em;
+}
+
+/* ---------- bouton submit  ---------- */
+
+.bouton-submit {
+	text-align : center;
+
+}
+
+/* ---------- Message erreur/succès  ---------- */
+
+form .succes {
+    color: #2cb857;
+}
+
+form .erreur {
+    color: #f16545;
+}
+
+/* ---------- Définition des polices personnalisées ---------- */
+
+
+@font-face
+{
+    font-family: '20db';
+    src: url('font/20db.otf');
+}
+
+@font-face
+{
+    font-family: 'soria';
+    src: url('font/soria-font.ttf');
+}
