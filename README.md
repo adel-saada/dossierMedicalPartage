@@ -1,2 +1,2 @@
 # dossierMedicalPartage
-projet d'école (inspiration doctolib)
+site web Java EE dossier medical partagé (inspiration doctolib)
